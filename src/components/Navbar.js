@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Auth } from "aws-amplify";
 import { Navbar, Button, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default class navbar extends Component {
   //Logout handler
@@ -17,7 +18,13 @@ export default class navbar extends Component {
     return (
       <Navbar bg="light">
         <Navbar.Brand href="/">Event Scheduler</Navbar.Brand>
-        <Nav.Link href="/CreateEvent">Create Event</Nav.Link>
+        <Link
+          to={{
+            pathname: "/CreateEvent",
+          }}
+        >
+          Create New
+        </Link>
         <Nav className="ml-auto">
           <Button
             className="float-right"

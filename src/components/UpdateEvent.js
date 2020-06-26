@@ -126,19 +126,19 @@ export default class UpdateEvent extends Component {
                   <option value="">Select One</option>
                   <option
                     value="Idle"
-                    disabled={currentEvent.EventStatus == "Idle"}
+                    disabled={currentEvent.EventStatus === "Idle"}
                   >
                     Idle
                   </option>
                   <option
                     value="Ongoing"
-                    disabled={currentEvent.EventStatus == "Ongoing"}
+                    disabled={currentEvent.EventStatus === "Ongoing"}
                   >
                     Ongoing
                   </option>
                   <option
                     value="Finished"
-                    disabled={currentEvent.EventStatus == "Finished"}
+                    disabled={currentEvent.EventStatus === "Finished"}
                   >
                     Finished
                   </option>
