@@ -1,8 +1,9 @@
 {
 	"auth": {
-		"cognitocf0c6096": {
+		"authcra3959845439598454": {
 			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
 		}
 	}
 }
