@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import UpdateEvent from "./components/UpdateEvent";
 import CreateEvent from "./components/CreateEvent";
 import { withAuthenticator } from "aws-amplify-react";
-import Amplify, { Auth, API } from "aws-amplify";
+import Amplify from "aws-amplify";
 import config from "./config";
 
 Amplify.configure({

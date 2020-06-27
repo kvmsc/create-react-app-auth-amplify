@@ -5,7 +5,7 @@ export default class Event extends Component {
   render() {
     //console.log(this.props);
     const currentEvent = this.props;
-    console.log(currentEvent);
+    //console.log(currentEvent);
     return (
       <tr>
         <td class="column1">{currentEvent.EventName}</td>

@@ -19,6 +19,7 @@ export default class UpdateEvent extends Component {
           formType="Update"
           reqPath="/event-update"
           update_data={this.state.injectedState.event}
+          consistency={this.props.consistency}
         />
       </div>
     );

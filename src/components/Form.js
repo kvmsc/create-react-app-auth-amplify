@@ -84,6 +84,7 @@ export default class FormComp extends Component {
 
       //the data in App State is now Stale
       this.props.consistency.setConsistency(false);
+      //console.log(this.props.consistency.isConsistent);
     } catch (err) {
       console.log(err);
     }
